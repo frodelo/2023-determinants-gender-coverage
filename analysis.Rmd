@@ -1,0 +1,158 @@
+---
+title: "Determinantes organizacionales de la diferencia de género en la cobertura informativa de campañas electorales"
+author: "Frida V. Rodelo"
+date: "11/24/2021"
+output: html_document
+---
+
+## Cargar paquetes
+
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
+## Importar datos
+
+```{r load data}
+datos <- read.csv("datos_key_2.csv")
+```
+
+## Excluir programas con < 1 minuto de cobertura total durante las campañas
+
+```{r}
+datos2 <- filter(datos, minutos_totales > 1)
+```
+
+## Exploración de datos: diagrama de puntos
+
+```{r}
+ggplot(datos, aes(x=diferencia_porc, y=minutos_totales)) + 
+    geom_point()
+```
+
+## Ejemplo de T de Student
+Fuente: https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test
+Fuente: https://statistics.berkeley.edu/computing/r-t-tests
+
+```{r}
+# NOT RUN {
+require(graphics)
+
+t.test(1:10, y = c(7:20))      # P = .00001855
+t.test(1:10, y = c(7:20, 200)) # P = .1245    -- NOT significant anymore
+
+## Classical example: Student's sleep data
+plot(extra ~ group, data = sleep)
+## Traditional interface
+with(sleep, t.test(extra[group == 1], extra[group == 2]))
+## Formula interface
+t.test(extra ~ group, data = sleep)
+# }
+```
+
+## Suma de programas con mujeres en puestos clave
+
+```{r}
+porcentaje_mujeres <- datos2 %>%
+    summarise(pct_conductoras = mean(conductora),
+              pct_jefaprograma = mean(jefatura_programa),
+              pct_jefamedio = mean(jefatura_medio))
+
+```
+
+## El programa es regional
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ regional, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(regional), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("El programa es regional")
+```
+
+## Presencia de al menos una conductora
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ conductora, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(conductora), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Presencia de al menos una conductora")
+```
+
+## Radio vs. televisión
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ sector, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(sector), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Radio vs. televisión")
+```
+
+## Medios privados vs. públicos
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ propiedad, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(propiedad), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Medios privados vs. públicos")
+```
+
+## Noticiario vs. otros formatos
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ formato, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(formato), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Noticiario vs. otros formatos")
+```
+
+
+## Jefatura de mujer en el programa
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ jefatura_programa, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(jefatura_programa), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Jefatura de mujer en el programa")
+```
+
+## Jefatura de mujer en la organización de medios
+
+```{r}
+## Formula interface
+t.test(diferencia_porc ~ jefatura_medio, data = datos2)
+## Gráfica
+ggplot(datos2, aes(x=as.factor(jefatura_medio), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Jefatura de mujer en la organización de medios")
+```
+
+## Momento de la campaña
+
+```{r}
+datos_paired <- read.csv("datos_key_contextual.csv")
+## Formula interface
+t.test(diferencia_porc ~ grupo, 
+       data = datos_paired,
+       paired = TRUE)
+## Gráfica
+ggplot(datos_paired, aes(x=as.factor(grupo), y=diferencia_porc)) + 
+    geom_boxplot(fill="slateblue", alpha=0.2) + 
+    xlab("Inicio vs. cierre de campaña")
+## Desviación estándar
+datos_paired %>%
+  group_by(grupo) %>%
+  summarise(DE = sd(diferencia_porc))
+```
