@@ -1,0 +1,105 @@
+programa,grupo,hombre,mujer,otros,varios,minutos_totales,h,m,diferencia_porc
+Ahora más Noticias Jalisco,inicio,42,21,,,63,0.67,0.33,0.33
+Así las cosas Jalisco,inicio,76,22,,14,113,0.67,0.2,0.48
+Buenas Tardes,inicio,12,,,4,16,0.73,0,0.73
+Buenos Días Metrópoli,inicio,33,22,,21,76,0.44,0.29,0.15
+Cara a Cara,inicio,273,163,,59,494,0.55,0.33,0.22
+Con Todo Respeto,inicio,10,1,,2,14,0.75,0.09,0.66
+Cosa Pública 2.0,inicio,1,3,,8,13,0.12,0.24,-0.13
+Cruzando la Línea de los Hechos,inicio,709,232,,8,949,0.75,0.24,0.5
+De Frente en Jalisco,inicio,269,178,,142,589,0.46,0.3,0.15
+Forma y Fondo,inicio,283,94,,15,392,0.72,0.24,0.48
+Fórmula Noticias Primera Emisión,inicio,23,2,,21,47,0.5,0.04,0.46
+Fórmula Noticias Segunda Emisión,inicio,45,13,,19,77,0.58,0.17,0.42
+Hechos AM Jalisco,inicio,103,55,,4,163,0.63,0.34,0.29
+Hechos Jalisco,inicio,29,9,,2,41,0.72,0.23,0.49
+Hechos Meridiano Trece,inicio,39,1,,2,42,0.93,0.04,0.89
+Heraldo Noticias Jalisco,inicio,88,22,,74,184,0.48,0.12,0.36
+Imagen Radio Guadalajara,inicio,265,170,,4,439,0.6,0.39,0.22
+Informativo NTR Mañana,inicio,29,,0,4,33,0.87,0,0.87
+Informativo NTR Noche,inicio,62,36,,49,147,0.42,0.25,0.17
+Informativo NTR Tarde,inicio,117,61,,37,215,0.55,0.28,0.26
+Ke Buena Radar Informativo Lagos de Moreno,inicio,276,234,,84,595,0.46,0.39,0.07
+La Red de Puerto Vallarta Mañana,inicio,250,129,,27,406,0.62,0.32,0.3
+La Red de Puerto Vallarta Tarde,inicio,350,177,2,30,560,0.63,0.32,0.31
+Líder Informativo primera emisión,inicio,306,14,,36,356,0.86,0.04,0.82
+Líder Informativo segunda emisión,inicio,218,36,,27,281,0.78,0.13,0.65
+Meganoticias,inicio,57,15,,63,134,0.42,0.11,0.31
+Metrópoli al Día,inicio,21,,,15,36,0.58,0,0.58
+Noticiero en Punto Matutino,inicio,302,110,,35,447,0.67,0.25,0.43
+Noticiero en Punto Vespertino,inicio,134,64,,51,249,0.54,0.26,0.28
+Noticiero GDL Contigo,inicio,57,34,,4,96,0.6,0.36,0.24
+Noticiero GDL Matutino,inicio,113,81,,9,204,0.55,0.4,0.15
+Noticiero GDL Nocturno,inicio,114,61,,5,180,0.63,0.34,0.3
+Política en Directo,inicio,62,28,0,14,104,0.6,0.27,0.33
+Política en Plural,inicio,4,,,1,5,0.82,0,0.82
+Punto Político,inicio,405,164,,84,653,0.62,0.25,0.37
+Reporte W,inicio,21,5,,16,42,0.5,0.12,0.38
+Señal Informativa Lagos de Moreno,inicio,126,111,,84,320,0.39,0.35,0.05
+Señal Informativa Matutina Colotlán,inicio,9,3,,11,23,0.4,0.13,0.28
+Señal Informativa Matutina de Autlán,inicio,189,83,,39,310,0.61,0.27,0.34
+Señal Informativa Ocotlán,inicio,38,11,,37,87,0.44,0.13,0.3
+Señal Informativa Primera Edición,inicio,463,206,,230,899,0.51,0.23,0.29
+Señal Informativa PTO. Vallarta,inicio,146,110,0,15,271,0.54,0.4,0.13
+Señal Informativa Región Sur (Zapotlán),inicio,122,151,,14,287,0.43,0.53,-0.1
+Señal Informativa Segunda Edición,inicio,483,264,,323,1070,0.45,0.25,0.2
+Señal Informativa Tercera Edición,inicio,561,251,,258,1070,0.52,0.23,0.29
+Tela de Juicio,inicio,240,110,,24,374,0.64,0.29,0.35
+Zona 3 Primera Emisión,inicio,144,46,,6,197,0.73,0.23,0.5
+Zona 3 Segunda Emisión,inicio,178,68,,33,278,0.64,0.24,0.4
+Zona 3 Tercera Emisión,inicio,144,95,,21,260,0.55,0.37,0.19
+Señal Informativa Primera Edición,inicio,463,206,,230,899,0.51,0.23,0.29
+Señal Informativa Segunda Edición,inicio,483,264,,323,1070,0.45,0.25,0.2
+Señal Informativa Tercera Edición,inicio,561,251,,258,1070,0.52,0.23,0.29
+Ahora más Noticias Jalisco,cierre,30,20,,,50,0.6,0.4,0.2
+Así las cosas Jalisco,cierre,31,,,2,34,0.93,0,0.93
+Buenas Tardes,cierre,12,,,1,13,0.9,0,0.9
+Buenos Días Metrópoli,cierre,42,1,,46,89,0.47,0.02,0.45
+Cara a Cara,cierre,29,54,,12,96,0.3,0.57,-0.26
+Con Todo Respeto,cierre,2,,,3,6,0.39,0,0.39
+Cosa Pública 2.0,cierre,4,,,,4,1,0,1
+Cruzando la Línea de los Hechos,cierre,228,57,,6,291,0.78,0.2,0.59
+De Frente en Jalisco,cierre,57,78,,18,152,0.37,0.51,-0.14
+Forma y Fondo,cierre,69,24,,3,95,0.73,0.25,0.48
+Fórmula Noticias Primera Emisión,cierre,15,,,11,26,0.58,0,0.58
+Fórmula Noticias Segunda Emisión,cierre,6,4,,2,12,0.46,0.36,0.1
+Hechos AM Jalisco,cierre,78,41,,4,123,0.64,0.33,0.3
+Hechos Jalisco,cierre,45,20,,1,66,0.68,0.3,0.38
+Hechos Meridiano Trece,cierre,28,1,,2,31,0.92,0.03,0.9
+Heraldo Noticias Jalisco,cierre,45,25,,18,88,0.51,0.29,0.22
+Imagen Radio Guadalajara,cierre,54,28,,1,83,0.65,0.33,0.32
+Informativo NTR Mañana,cierre,12,6,,7,25,0.49,0.25,0.24
+Informativo NTR Noche,cierre,41,19,,17,77,0.53,0.25,0.29
+Informativo NTR Tarde,cierre,62,44,,23,129,0.48,0.34,0.14
+Ke Buena Radar Informativo Lagos de Moreno,cierre,85,56,,43,184,0.46,0.3,0.16
+La Red de Puerto Vallarta Mañana,cierre,69,9,,8,86,0.8,0.1,0.7
+La Red de Puerto Vallarta Tarde,cierre,69,20,,7,95,0.72,0.21,0.51
+Líder Informativo primera emisión,cierre,94,10,,16,120,0.78,0.08,0.7
+Líder Informativo segunda emisión,cierre,66,20,,12,98,0.67,0.21,0.47
+Meganoticias,cierre,55,3,,17,76,0.73,0.04,0.69
+Metrópoli al Día,cierre,23,,,1,25,0.94,0,0.94
+Noticiero en Punto Matutino,cierre,124,31,,16,171,0.72,0.18,0.54
+Noticiero en Punto Vespertino,cierre,31,39,,23,93,0.33,0.42,-0.09
+Noticiero GDL Contigo,cierre,32,17,,17,66,0.48,0.26,0.22
+Noticiero GDL Matutino,cierre,62,20,,16,98,0.63,0.2,0.43
+Noticiero GDL Nocturno,cierre,44,16,,12,72,0.61,0.22,0.38
+Política en Directo,cierre,37,3,,18,58,0.63,0.05,0.58
+Política en Plural,cierre,5,,,1,6,0.8,0,0.8
+Punto Político,cierre,99,67,,29,195,0.51,0.34,0.16
+Reporte W,cierre,,,,1,1,0,0,0
+Señal Informativa Lagos de Moreno,cierre,40,20,,20,81,0.5,0.25,0.25
+Señal Informativa Matutina Colotlán,cierre,11,4,,6,20,0.53,0.17,0.36
+Señal Informativa Matutina de Autlán,cierre,67,38,,11,116,0.58,0.33,0.25
+Señal Informativa Ocotlán,cierre,13,4,,11,27,0.46,0.15,0.32
+Señal Informativa Primera Edición,cierre,92,37,,218,346,0.27,0.11,0.16
+Señal Informativa PTO. Vallarta,cierre,30,12,,1,43,0.7,0.27,0.43
+Señal Informativa Región Sur (Zapotlán),cierre,12,6,,2,20,0.59,0.3,0.29
+Señal Informativa Segunda Edición,cierre,102,30,,69,200,0.51,0.15,0.36
+Señal Informativa Tercera Edición,cierre,122,42,,48,213,0.57,0.2,0.38
+Tela de Juicio,cierre,121,39,,17,177,0.68,0.22,0.46
+Zona 3 Primera Emisión,cierre,72,14,,11,98,0.74,0.15,0.59
+Zona 3 Segunda Emisión,cierre,34,23,4,35,96,0.35,0.24,0.11
+Zona 3 Tercera Emisión,cierre,22,37,,19,78,0.28,0.47,-0.19
+Señal Informativa Primera Edición,cierre,92,37,,218,346,0.27,0.11,0.16
+Señal Informativa Segunda Edición,cierre,102,30,,69,200,0.51,0.15,0.36
+Señal Informativa Tercera Edición,cierre,122,42,,48,213,0.57,0.2,0.38
